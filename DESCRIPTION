@@ -1,0 +1,23 @@
+Package: wordly
+Title: Natural Language Processing (NLP) functionality and modeling
+Version: 0.0.2
+Authors@R: 
+    person(given = "Tom",
+           family = "A",
+           role = c("aut", "cre"),
+           email = "tom@fake-email-do-not-use.com",
+           comment = structure("YOUR-ORCID-ID", .Names = "ORCID"))
+Description: This package provides functions for NLP analysis and modeling. It is mainly a driver for existing libs such as text2vec, tokenizers, etc.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    magrittr,
+    plyr,
+    dplyr,
+    text2vec,
+    stringr,
+    xgboost,
+    tokenizers,
+    diffr
+RoxygenNote: 6.1.1
