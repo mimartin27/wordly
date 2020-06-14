@@ -3,6 +3,12 @@ Intro & Install:
 
 The `wordly` package provides functions for NLP analysis and modeling. It is mainly a driver for existing libs such as text2vec, tokenizers, xgboost, etc.
 
+Install:
+
+``` r
+devtools::install_github("tomathon-io/wordly")
+```
+
 
 
 Tokenization & Sentiment:
